@@ -1,0 +1,39 @@
+class Board
+private members that cannot be accessed
+public access specifier
+
+Board()
+constructor initializes each space (square) to a blank space and the markers to x and o.
+for loop increment to fill in the arrays
+
+void show_instructions()
+Outlines the basic instructions and coordinate system.
+
+void show()
+shows current state of the board
+
+bool valid_move
+checks if computer or user is making a valid move
+
+int main()
+
+void computerMove()
+validate move
+show() board
+check human answer and counter
+next turn if and else statement
+check diagonals, hoeizontal, and vertical possibilities
+if win declare win
+if full declare draw
+
+win()
+declare win if true or return false
+
+lose()
+declare lost if true or return false
+
+full()
+checks if all squares are full 
+if count sums to 9 return true
+
+

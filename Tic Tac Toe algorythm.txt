@@ -1,0 +1,39 @@
+#include <iostream>
+
+const short SIZE is 3 for array
+class Board
+	private: char square [Size][Size]
+	public: functions called
+
+Board()
+user_Mark = X, ai_Mark = 0
+for loop till coordinance is == Size
+
+void show_instructions()
+Displays instructions once at beginning
+Outlines basic instructions and coordinate system
+Enter
+
+void show()
+displays the current state of the board
+
+bool valid_move(short n, short n2)
+if coordinance is equal return false
+else return true
+
+int main()
+if user selects to play again do while loop that prints # of games
+Allow user to select choice "Player 1 or AI"
+Display case1 if player
+Display cas2 if AI
+Request if user wants to play again[y/n]
+Close or return
+
+computerMove()
+A random assignment is made, then based on game type (i.e. if user is Player 1) a
+specialized move is selected, then if any cases of imminent defeat or victory are detected
+it responds accordingly.
+while loop Random assignment for computer move
+Switch Case 1/Case 2 with a break for a valid move depending on the coordonance chosen
+Review all possibilities for win scenario
+Display lose, win or draw(full) scenario

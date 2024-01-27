@@ -2,12 +2,12 @@
 This Tic Tac Toe game features an invincible AI player that uses the Minimax algorithm and smart heuristics to analyze all possible moves and never lose. The animated GUI offers a smooth interface to play against the impossible-to-beat opponent.
 
 
-## Unbeatable Tic Tac Toe
+## Unbeatable Tic Tac Toe detailed description
 This Tic Tac Toe game features an AI opponent that is impossible to beat! The AI player leverages the Minimax algorithm to analyze all possible game outcomes and always make the optimal move.
 
 Features
 Invincible AI using Minimax and heuristic scoring
-GUI gameboard built with Tkinter
+GUI gameboard
 Ability to play as X or O against the AI
 Configurable gameboard size (3x3, 4x4, 5x5)
 Animated graphics for placing pieces and game end
